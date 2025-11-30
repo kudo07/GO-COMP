@@ -1,0 +1,48 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build output
+*.test
+*.out
+
+# Build artifacts
+/bin/
+/build/
+/dist/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Vendor directory (if you run `go mod vendor`)
+/vendor/
+
+# IDE / Editor stuff
+# VS Code
+.vscode/
+
+# GoLand / IntelliJ
+.idea/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.temp
+*.swp
+
+# Coverage files
+coverage*.txt
+coverage.out
+
+# Environment files
+.env
+.env.*

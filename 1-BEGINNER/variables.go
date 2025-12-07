@@ -9,6 +9,7 @@ func variables() {
 	var age int
 	var name string = "john"
 	name1 := "Jane"
+	fmt.Print(name, age, name1)
 	// var name :=12 we dont use short variable decalration
 	// default values
 	// numeric type: 0

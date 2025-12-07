@@ -1,0 +1,23 @@
+package main
+
+import "fmt"
+
+func loopWhile() {
+	// for as while with break
+	sum := 10
+	for {
+		fmt.Println("Sum:", sum)
+		if sum >= 50 {
+			break
+		}
+	}
+	num := 1
+	for num <= 10 {
+		if num%2 == 0 {
+			num++
+			continue
+		}
+		fmt.Println("Odd Number:", num)
+		num++
+	}
+}
